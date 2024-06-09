@@ -1,7 +1,6 @@
 # Histograma
 """
-Crear un programa para hacer un 
-histograma a partie de una lista de enteros
+Crear un programa para hacer un histograma a partie de una lista de enteros
 
 Analisis
 
@@ -13,7 +12,7 @@ Analisis
 * * *
 """
 
-def crear_histograma (lista, caracter='* '):
+def crear_histograma (lista, caracter ='* '):
     for e in lista:
         print(caracter * e)
 

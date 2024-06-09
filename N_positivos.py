@@ -1,14 +1,12 @@
 # Pares positivos
 """
-Crea un programa que imprima la cantidad
-de numeros pares positivos ingresados segun el usuario
+Crea un programa que imprima la cantidad de numeros pares positivos 
+ingresados segun el usuario
 k mod 2 == . => ka es par
 """
 
 def generar_numeros_pares(n = 100):
-    """
-    Genera los n primeros numeros pares positivos.
-    """
+
     pares =[]
 
     contador = 0
@@ -26,6 +24,6 @@ n = int(input('Escriba la cantidad de numeros pares positivos a generar: '))
 if n > 0:
     pares = generar_numeros_pares(n)
     print(pares)
-    print('Cantidad de pares:', len(pares))
+    print(f"Cantidad de pares: {len(pares)}")
 else:
-    print('El numero debe ser positivo')    
+    print(f"El numero {n} es negativo")

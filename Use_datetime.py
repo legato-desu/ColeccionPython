@@ -17,4 +17,5 @@ print(ahora)
 print(type(ahora))
 
 # Organizar la fecha Dia/Mes/Año/hora
-print(ahora.strftime('%d/%m/%y %H:%M:%S'))
+
+print(f"{ahora.strftime('%d/%m/%y\t%H:%M:%S')}")

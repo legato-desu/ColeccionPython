@@ -10,7 +10,8 @@ n = 2
 2 + 22 + 222
 >>> 246
 """
-n = input('Ingrese el valor de n: ')
+
+n = input("Ingrese el valor de n: ")
 
 nn = int('{}{}'.format(n,n))
 

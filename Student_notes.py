@@ -1,8 +1,8 @@
 # Calificaciones estudiante
 """
-La clase "Alumno" define un objeto de estudiante con 
-atributos de nombre y calificación, y métodos para imprimir
-la información del estudiante y determinar si aprobó o reprobó.
+La clase (Alumno) define un objeto de estudiante con atributos de 
+nombre y calificación, y métodos para imprimir la información del 
+estudiante y determinar si aprobó o reprobó.
 """
 class Alumno():
 
@@ -11,7 +11,7 @@ class Alumno():
         self.nota = nota
 
     def resultados(self):
-        print("El alumno:",self.nombre,"con nota:",self.nota)
+        print(f"El alumno {self.nombre} con nota {self.nota}",end=" ")
 
     def calculo(self):
         if self.nota < 5:
@@ -19,14 +19,11 @@ class Alumno():
         else:
             print("Ha aprobado")
 
-alumno1 = Alumno("Jennifer",8)
-alumno1.resultados()
-alumno1.calculo()
+nombres = input("Ingrese el nombre del alumno: ")
+nombres = nombres.capitalize()
 
-alumno2 = Alumno("David",4)
-alumno2.resultados()
-alumno2.calculo()
+notas = int(input("Ingrese la nota: "))
 
-alumno3 = Alumno("Mary",10)
-alumno3.resultados()
-alumno3.calculo()
+alumno = Alumno(nombres,notas)
+alumno.resultados()
+alumno.calculo()

@@ -8,6 +8,7 @@ En el caso de que sean más de las 7, se mostrará un mensaje y
 en caso contrario, haréis una operación para calcular 
 el tiempo que queda de trabajo.
 """
+
 import time
 
 hora = time.strftime('%H') 
@@ -16,4 +17,5 @@ minutos = time.strftime('%M')
 if int(hora) >= 19:
 	print ("Es hora de irse a casa") 
 else:
-	print ("Restan {} horas y {} minutos para ir a casa".format(18- int(hora), 59-int(minutos)))
+    
+    print(f"Restan {18-int(hora)} horas y {59-int(minutos)} minutos para ir a casa")

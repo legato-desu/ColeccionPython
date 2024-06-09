@@ -1,8 +1,8 @@
 # Imprimir de forma bonita 
 
 """
-Uso de la libreria -pprint- para 
-imprimir de forma ordenada y bonita el codigo
+Uso de la libreria -pprint- para imprimir de forma ordenada y 
+bonita el codigo
 """
 import pprint
 

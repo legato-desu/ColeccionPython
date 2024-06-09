@@ -1,11 +1,10 @@
 # Numeros primos
 """
-► Enunciado:
-
 Escribir un programa que imprima todos los números primos 
 hasta un número introducido por el usuario.
 """
-limite = int(input('>>> Ingrese un mumero: '))
+
+limite = int(input("Ingrese un mumero: "))
 
 for numero in range(1, limite + 1):
     posible_primo = True

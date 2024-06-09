@@ -5,8 +5,8 @@ las palabras almacenadas en las variables
 """
 
 # Definir las variables
-minus = "Hello word"
-mix = "HOLA todos"
+minus = "hola mundo"
+mix = "HOLA mundo"
 mayus = "HOLA MUNDO"
 # Hacer la convercion
 minus = minus.upper() # Pasa a mayusculas

@@ -1,5 +1,6 @@
+import random
 
-secreto = 50
+secreto = random.randint(1,50)
 
 valor = 0
 while valor != secreto:

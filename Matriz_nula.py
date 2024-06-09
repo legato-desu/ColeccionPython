@@ -56,8 +56,8 @@ longitud = 0
 m_filas = 0
 n_columnas = 0
 
-m_filas    = int(input(">>> Numero de filas (m): "))
-n_columnas = int(input(">>> Numero de columnas (n): "))
+m_filas    = int(input("Numero de filas (m): "))
+n_columnas = int(input("Numero de columnas (n): "))
 
 M = []
 
@@ -66,7 +66,7 @@ for elemento in range(m_filas):
 
 longitud = len(M)
 
-print("\n>>> MATRIZ M(%dx%d): %s\n" %(m_filas,n_columnas,M))
+print("\nMatriz M (%dx%d): %s\n" %(m_filas,n_columnas,M))
 
 for fila in range(longitud):
     print(M[fila])

@@ -1,17 +1,12 @@
 # Dia de la semana
 """
-Se desea diseñar un programa que 
-escriba los nombres de los dias de la 
-semana en funcion del valor de una 
-variable DIA introducida por teclado
+Se desea diseñar un programa que escriba los nombres de los dias de la 
+semana en funcion del valor de una variable DIA introducida por teclado
 """
+
 print("Ingresa un numero y se mostrara el dia de la semana correspondiente")
-dia = input("Ingrese un numero entre el 1 al 7: ")
-try:
-    dia = int(dia)
-except:
-    print("Ingrese un numero entre el rango") 
-    exit ()   
+dia = int(input("Ingrese un numero entre el 1 al 7: "))
+
 if dia == 1:
     print("Lunes")  
 elif dia == 2:

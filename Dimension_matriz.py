@@ -13,14 +13,19 @@ la matriz en pantalla.
 M = []
 longitud = 0
 dimension = 0
+
 dimension = int(input(">>> Dimension de la matriz de tamaño n x n: "))
+
 for elemento in range(dimension):
         M.append ([0] * dimension)
 for fila in range(dimension):
     for columna in range(dimension):
         if fila == columna:
             M[fila][columna] = 1
+
 print("\n>>> MATRIZ M(%dx%d): %s\n" %(dimension,dimension,M))
+
 longitud = len(M)
+
 for valor in range(longitud):
     print(M[valor])

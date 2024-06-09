@@ -9,14 +9,9 @@ puede ser calculada de la siguiente forma:
 suma = n(n+1)
         2
 """
-suma = 0
-numero = input("Ingrese un numero entero ")
-try:
-    numero = int(numero)
-except:
-    print("Ingrese un numero entero valido") 
-    exit()
+
+numero = int(input("Ingrese un numero entero "))
     
 suma = numero * (numero + 1 )/2
 
-print("La suma desde 1 hasta " + str(numero) + " es "+ str(suma))
+print(f"La suma desde 1 hasta {numero} es {suma:.0f}")

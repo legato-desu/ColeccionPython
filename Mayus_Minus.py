@@ -2,7 +2,7 @@
 """
 ► Teoría:
 En la práctica, existe un código estándar, el código ASCII (código 
-estándar amer icano para intercambio de información), que 
+estándar americano para intercambio de información), que 
 relaciona cada letra, número o símbolo con una cifra del 0 al 255 
 (con una secuencia de 8 bits):
 
@@ -22,11 +22,11 @@ en ordenadores, ya que cada letra ocupará exactamente un byte
 Escribir un programa que solicite al usuario una letra y diga 
 si esta es MAYÚSCULA o minúscula.
 """
-letra = input('>>> Introduce una letra: ')
+letra = input('Introduce una letra: ')
 
 if letra <= 'z'  and letra >= 'a':  
-    print('La letra es minuscula.') 
+    print(f"La letra ({letra}) es minuscula")
 elif letra <= 'Z' and letra >= 'A': 
-    print('La letra es Mayuscula.')
+    print(f"La letra ({letra}) es mayuscula")
 else:
-    print('El valor introducido no es una letra.')
+    print(f"({letra}) No es una letra")

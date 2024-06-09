@@ -1,9 +1,7 @@
 # MCD
 """
-Crea un programa para calcular 
-el maximo comun divisor de dos numeros
+Crea un programa para calcular el maximo comun divisor de dos numeros
 """
-# MCD: el numero mas grande que divide dos numeros
 
 def mcd(x, y):
     mcd = 1
@@ -15,8 +13,7 @@ def mcd(x, y):
             break
     return mcd
 
-print(mcd(8, 4))
-print(mcd(13, 7))
-print(mcd(29, 19))
-print(mcd(17, 12))
-print(mcd(4, 2))
+x = int(input("Ingrese el primer numero: "))
+y = int(input("Ingrese el segundo numero: "))
+
+print(f"El maximo comun divisor de {x} y {y} es: {mcd(x,y)}")

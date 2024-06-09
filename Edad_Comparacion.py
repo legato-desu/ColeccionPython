@@ -9,15 +9,10 @@ Si la edad de ambos es igual se muestra el siguiente mensaje:
 
 - Ambos tienen la misma edad!
 """
-persona_1 = input("Ingrese la edad de la primer persona: ")
-persona_2 = input("Ingrese la edad de la segunda persona: ")
 
-try:
-    persona_1 = int(persona_1)
-    persona_2 = int(persona_2)
-except:
-    print("Ingrese una edad valida")
-    exit()
+persona_1 = int(input("Ingrese la edad de la primer persona: "))
+persona_2 = int(input("Ingrese la edad de la segunda persona: "))
+
 if persona_1 == persona_2:
     print("Ambos tienen la misma edad! ")
 elif persona_1 > persona_2:

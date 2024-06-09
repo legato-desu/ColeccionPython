@@ -65,7 +65,7 @@ longitud = 0
 dimension = 0
 
 
-dimension = int(input(">>> Dimension de la matriz de tamaño n x n: "))
+dimension = int(input("Ingrese la matriz de tamaño n x n: "))
 
 for elemento in range(dimension):
         M.append ([0] * dimension)
@@ -76,7 +76,8 @@ for fila in range(dimension):
             M[fila][columna] = 1
 
 
-print("\n>>> MATRIZ M(%dx%d): %s\n" %(dimension,dimension,M))
+print("\nMatriz M (%dx%d): %s\n" %(dimension,dimension,M))
+
 
 longitud = len(M)
 

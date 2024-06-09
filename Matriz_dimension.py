@@ -51,7 +51,7 @@ matriz = [[7, 8, 9], [4, 5, 6,], [7, 8, 9]]
 
 longitud = len(matriz)
 
-print(">>> matriz: %s" %(matriz))
+print("Matriz: %s" %(matriz))
 
 for fila in range(longitud):
-    print(">>> FILA %d: %s" %(fila+1, matriz[fila]))
+    print("Fila %d: %s" %(fila+1, matriz[fila]))

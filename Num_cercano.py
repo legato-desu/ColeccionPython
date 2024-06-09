@@ -41,4 +41,4 @@ else:
 
 mas_cercano = numero_1 - menor
 
-print(f"El numero mas cercano a ",numero_1 ," es", mas_cercano) 
+print(f"El numero mas cercano a {numero_1} es {mas_cercano}")

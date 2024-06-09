@@ -1,8 +1,7 @@
 # Imprime en orden inverso unos caracteres
 """
-Crea un programa que imprima por pantalla 
-la palabra inversa segun la almacenada en la variable 
-"cadena"
+Crea un programa que imprima por pantalla la palabra inversa segun 
+la almacenada en la variable (cadena)
 """
 
 # Python => nohtyP

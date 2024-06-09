@@ -1,7 +1,8 @@
-# Generar un conjunto de numeros aleatorios y determinar cuales son impares
+"""
+Generar un conjunto de numeros aleatorios y determinar cuales son impares
 
-# K mod 2 == 1
-
+K mod 2 == 1
+"""
 from random import randint
 
 numeros_aleatorios = [randint(1,100)for _ in range(2)]
