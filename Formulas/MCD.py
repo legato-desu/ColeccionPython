@@ -1,8 +1,9 @@
-# MCD
+# Greatest common divisor
 """
-Crea un programa para calcular el maximo comun divisor de dos numeros
+Create a program to calculate the greatest common factor of two numbers
 """
-
+print("\nMaximo comun divisor")
+print("====================\n")
 def mcd(x, y):
     mcd = 1
     if x % y == 0:
@@ -12,8 +13,6 @@ def mcd(x, y):
             mcd = k
             break
     return mcd
-
 x = int(input("Ingrese el primer numero: "))
 y = int(input("Ingrese el segundo numero: "))
-
 print(f"El maximo comun divisor de {x} y {y} es: {mcd(x,y)}")
